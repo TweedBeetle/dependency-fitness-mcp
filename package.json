@@ -1,0 +1,73 @@
+{
+  "name": "depcheck-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that returns a cross-validated dependency FITNESS verdict for npm packages: deprecated / yanked / superseded status plus an inferred safe migration target — what to move to and how confident we are — cross-checked across the npm registry, deps.dev, OSV, and GitHub. Not just 'is it deprecated'; what to do about it.",
+  "type": "module",
+  "bin": {
+    "depcheck-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke": "tsx scripts/smoke.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "mcp-server",
+    "npm",
+    "dependencies",
+    "dependency-audit",
+    "deprecated",
+    "deprecation",
+    "yanked",
+    "superseded",
+    "migration",
+    "safe-migration-target",
+    "package-fitness",
+    "supply-chain",
+    "supply-chain-security",
+    "slopsquatting",
+    "deps.dev",
+    "osv",
+    "ai-agents",
+    "coding-agent",
+    "llm-tools"
+  ],
+  "author": "Christo Wilken <christo@9592.tech>",
+  "license": "MIT",
+  "homepage": "https://github.com/TweedBeetle/depcheck-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TweedBeetle/depcheck-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TweedBeetle/depcheck-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "semver": "^7.8.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/semver": "^7.7.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7"
+  }
+}
