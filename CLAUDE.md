@@ -5,6 +5,7 @@ MCP server that returns a **cross-validated npm dependency fitness verdict**
 with an **inferred + verified safe migration target**. Origin brief:
 `~/projects/revenue-paths/evidence/dossier/package-version-mcp.md`. User-facing
 overview: `README.md`. Validation design + kill criterion: `KILL_CRITERION.md`.
+Directory-seeding playbook (listing copy + per-directory steps): `SEEDING.md`.
 
 ## The product invariant (the moat — don't erode it)
 
