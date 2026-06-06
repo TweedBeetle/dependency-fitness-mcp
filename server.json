@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.tweedbeetle/dependency-fitness-mcp",
-  "description": "Cross-validated npm dependency fitness verdicts: deprecated/yanked/superseded status plus an inferred, verified safe migration target — reconciled across npm, deps.dev, OSV, and GitHub.",
+  "description": "npm dependency fitness: deprecated/yanked/superseded + verified safe migration target.",
   "repository": {
     "url": "https://github.com/TweedBeetle/dependency-fitness-mcp",
     "source": "github"
