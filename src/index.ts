@@ -10,7 +10,7 @@ import { VerdictSchema, AuditSummarySchema } from "./types.js";
 const VERSION = "0.1.0";
 
 const server = new McpServer(
-  { name: "depcheck-mcp", version: VERSION },
+  { name: "dependency-fitness-mcp", version: VERSION },
   {
     instructions:
       "Cross-validated dependency FITNESS verdicts for npm packages. Before writing or upgrading " +
@@ -135,7 +135,7 @@ async function main(): Promise<void> {
   const transport = new StdioServerTransport();
   await server.connect(transport);
   // stderr only — stdout is the JSON-RPC channel and must not be polluted.
-  process.stderr.write(`depcheck-mcp v${VERSION} ready (stdio)\n`);
+  process.stderr.write(`dependency-fitness-mcp v${VERSION} ready (stdio)\n`);
 }
 
 main().catch((e) => {

@@ -7,7 +7,7 @@ discovery alone — with zero cold outreach?*
 
 ## The kill criterion (the load-bearing line)
 
-> **If depcheck-mcp cannot reach ~$500 MRR via organic MCP-directory discovery
+> **If dependency-fitness-mcp cannot reach ~$500 MRR via organic MCP-directory discovery
 > alone — no cold outreach, within a defined window — rotate the ecosystem
 > (npm → PyPI) once, then conclude and reallocate to the collectibles
 > portfolio.**
@@ -44,7 +44,7 @@ The generic "package version checker" listing term is already taken by free
 servers. The **open** term is the differentiator — lead every listing with
 *migration target + cross-validation*, not "version checker."
 
-- [ ] npm publish (claims the `depcheck-mcp` package name + `npx` install path)
+- [ ] npm publish (claims the `dependency-fitness-mcp` package name + `npx` install path)
 - [ ] GitHub repo public (the canonical home + build-in-public surface)
 - [ ] [mcp.so](https://mcp.so)
 - [ ] [smithery.ai](https://smithery.ai)

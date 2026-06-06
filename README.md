@@ -1,4 +1,4 @@
-# depcheck-mcp — npm dependency **fitness** verdicts for coding agents
+# dependency-fitness-mcp — npm dependency **fitness** verdicts for coding agents
 
 > Is this npm package safe to depend on — and if not, what do I move to?
 
@@ -71,14 +71,14 @@ Requires Node ≥ 18. Run via `npx` (no install) or install globally.
 
 **Claude Code:**
 ```bash
-claude mcp add depcheck -- npx -y depcheck-mcp
+claude mcp add dependency-fitness -- npx -y dependency-fitness-mcp
 ```
 
 **Claude Desktop / Cursor / any MCP client** (`mcp.json` / `claude_desktop_config.json`):
 ```jsonc
 {
   "mcpServers": {
-    "depcheck": { "command": "npx", "args": ["-y", "depcheck-mcp"] }
+    "dependency-fitness": { "command": "npx", "args": ["-y", "dependency-fitness-mcp"] }
   }
 }
 ```

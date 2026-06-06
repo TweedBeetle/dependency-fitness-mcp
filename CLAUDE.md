@@ -1,4 +1,4 @@
-# depcheck-mcp — project memory
+# dependency-fitness-mcp — project memory
 
 The "fast-validate" bet from the revenue-paths sequenced portfolio: an
 MCP server that returns a **cross-validated npm dependency fitness verdict**

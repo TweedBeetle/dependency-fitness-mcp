@@ -1,16 +1,16 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-  "name": "io.github.tweedbeetle/depcheck-mcp",
+  "name": "io.github.tweedbeetle/dependency-fitness-mcp",
   "description": "Cross-validated npm dependency fitness verdicts: deprecated/yanked/superseded status plus an inferred, verified safe migration target — reconciled across npm, deps.dev, OSV, and GitHub.",
   "repository": {
-    "url": "https://github.com/TweedBeetle/depcheck-mcp",
+    "url": "https://github.com/TweedBeetle/dependency-fitness-mcp",
     "source": "github"
   },
   "version": "0.1.0",
   "packages": [
     {
       "registryType": "npm",
-      "identifier": "depcheck-mcp",
+      "identifier": "dependency-fitness-mcp",
       "version": "0.1.0",
       "transport": { "type": "stdio" }
     }

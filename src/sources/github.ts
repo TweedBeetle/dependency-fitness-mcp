@@ -38,7 +38,7 @@ export async function fetchGithub(
 
   const headers: Record<string, string> = {
     accept: "application/vnd.github+json",
-    "user-agent": "depcheck-mcp",
+    "user-agent": "dependency-fitness-mcp",
   };
   const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
   if (token) headers.authorization = `Bearer ${token}`;

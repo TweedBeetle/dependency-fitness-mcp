@@ -1,10 +1,10 @@
 {
-  "name": "depcheck-mcp",
+  "name": "dependency-fitness-mcp",
   "version": "0.1.0",
   "description": "MCP server that returns a cross-validated dependency FITNESS verdict for npm packages: deprecated / yanked / superseded status plus an inferred safe migration target — what to move to and how confident we are — cross-checked across the npm registry, deps.dev, OSV, and GitHub. Not just 'is it deprecated'; what to do about it.",
   "type": "module",
   "bin": {
-    "depcheck-mcp": "dist/index.js"
+    "dependency-fitness-mcp": "dist/index.js"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -50,13 +50,13 @@
   ],
   "author": "Christo Wilken <christo@9592.tech>",
   "license": "MIT",
-  "homepage": "https://github.com/TweedBeetle/depcheck-mcp#readme",
+  "homepage": "https://github.com/TweedBeetle/dependency-fitness-mcp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TweedBeetle/depcheck-mcp.git"
+    "url": "git+https://github.com/TweedBeetle/dependency-fitness-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/TweedBeetle/depcheck-mcp/issues"
+    "url": "https://github.com/TweedBeetle/dependency-fitness-mcp/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
