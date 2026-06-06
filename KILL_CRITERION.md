@@ -44,14 +44,14 @@ The generic "package version checker" listing term is already taken by free
 servers. The **open** term is the differentiator — lead every listing with
 *migration target + cross-validation*, not "version checker."
 
-- [ ] npm publish (claims the `dependency-fitness-mcp` package name + `npx` install path)
-- [ ] GitHub repo public (the canonical home + build-in-public surface)
-- [ ] [mcp.so](https://mcp.so)
-- [ ] [smithery.ai](https://smithery.ai)
-- [ ] [glama.ai/mcp](https://glama.ai/mcp)
+- [x] npm publish — **live: `dependency-fitness-mcp@0.1.0`** (2026-06-06; `npx -y dependency-fitness-mcp`)
+- [x] GitHub repo public — https://github.com/TweedBeetle/dependency-fitness-mcp (topics set for auto-index)
+- [ ] [mcp.so](https://mcp.so) — submit form (Christo's login); copy in `SEEDING.md`
+- [ ] [smithery.ai](https://smithery.ai) — connect the public repo (Christo's login)
+- [ ] [glama.ai/mcp](https://glama.ai/mcp) — auto-indexes public GitHub MCP repos; claim via login
 - [ ] [PulseMCP](https://www.pulsemcp.com) (and chase a weekly-digest feature — a high-signal editorial boost)
-- [ ] [Official MCP registry](https://registry.modelcontextprotocol.io) (publish `server.json`)
-- [ ] PR to [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+- [ ] [Official MCP registry](https://registry.modelcontextprotocol.io) — **`server.json` validated (2025-12-11 schema); run `mcp-publisher login github` then `mcp-publisher publish`** (Christo's device-auth)
+- [x] PR to [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — **opened: [#7494](https://github.com/punkpeye/awesome-mcp-servers/pull/7494)**
 
 Servers on 5+ directories see materially more installs. Listing copy should hit
 the search terms the free version-checkers structurally can't claim:

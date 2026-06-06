@@ -41,8 +41,8 @@ npx -y dependency-fitness-mcp
 
 ## Checklist (order matters)
 
-1. **npm publish** — `npm publish` (account has 2FA → completes the OTP/browser prompt). *Owner: Christo (credential).*
-2. **GitHub public** — `gh repo edit TweedBeetle/dependency-fitness-mcp --visibility public --accept-visibility-change-consequences`. *Can be done for you on go-ahead.*
+1. **npm publish** — ✅ **DONE** — live: `dependency-fitness-mcp@0.1.0` (2026-06-06).
+2. **GitHub public** — ✅ **DONE** — repo public, discovery topics set.
 3. **Official MCP registry** (`server.json` is ready; namespace `io.github.tweedbeetle/dependency-fitness-mcp`):
    ```bash
    # install the publisher CLI (Go) — or use the latest documented install
@@ -56,7 +56,7 @@ npx -y dependency-fitness-mcp
    - [smithery.ai](https://smithery.ai) — "Add server", connect the public GitHub repo.
    - [glama.ai/mcp](https://glama.ai/mcp) — auto-indexes public GitHub MCP repos; claim the listing via GitHub login.
    - [PulseMCP](https://www.pulsemcp.com) — submit form; then chase a weekly-digest feature (high-signal editorial boost).
-5. **awesome-mcp-servers PR** — PR to [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers). *Can be opened for you via `gh` once npm is live.*
+5. **awesome-mcp-servers PR** — ✅ **DONE** — opened [#7494](https://github.com/punkpeye/awesome-mcp-servers/pull/7494) (Developer Tools section).
 
    Entry text (Developer Tools / package section):
    ```markdown
