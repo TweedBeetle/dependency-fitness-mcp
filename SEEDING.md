@@ -54,9 +54,12 @@ npx -y dependency-fitness-mcp
 4. **Submission surfaces** (each needs that site's own login — *Owner: Christo*, copy above is ready to paste):
    - [mcp.so](https://mcp.so) — submit form (GitHub login). Often auto-pulls from the official registry.
    - [smithery.ai](https://smithery.ai) — "Add server", connect the public GitHub repo.
-   - [glama.ai/mcp](https://glama.ai/mcp) — auto-indexes public GitHub MCP repos; claim the listing via GitHub login.
+   - [glama.ai/mcp](https://glama.ai/mcp) — **submit at https://glama.ai/mcp/servers** (GitHub login). Repo ships a verified `Dockerfile` (builds + responds to `initialize`/`tools/list`) so Glama's introspection check passes. **This is the gate on the awesome-mcp-servers PR** — see step 5.
    - [PulseMCP](https://www.pulsemcp.com) — submit form; then chase a weekly-digest feature (high-signal editorial boost).
-5. **awesome-mcp-servers PR** — ✅ **DONE** — opened [#7494](https://github.com/punkpeye/awesome-mcp-servers/pull/7494) (Developer Tools section).
+5. **awesome-mcp-servers PR** — opened [#7494](https://github.com/punkpeye/awesome-mcp-servers/pull/7494) (Developer Tools). ⚠️ **Merge gated on Glama**: maintainer (punkpeye) + CI bot both require the server listed on Glama + a score badge in the entry. Once Glama indexes it, add this after the repo link, push, and the gate clears:
+   ```markdown
+   [![TweedBeetle/dependency-fitness-mcp MCP server](https://glama.ai/mcp/servers/TweedBeetle/dependency-fitness-mcp/badges/score.svg)](https://glama.ai/mcp/servers/TweedBeetle/dependency-fitness-mcp)
+   ```
 
    Entry text (Developer Tools / package section):
    ```markdown
