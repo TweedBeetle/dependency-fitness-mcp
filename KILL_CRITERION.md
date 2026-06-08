@@ -44,13 +44,13 @@ The generic "package version checker" listing term is already taken by free
 servers. The **open** term is the differentiator — lead every listing with
 *migration target + cross-validation*, not "version checker."
 
-- [x] npm publish — **live: `dependency-fitness-mcp@0.1.0`** (2026-06-06; `npx -y dependency-fitness-mcp`)
+- [x] npm publish — **live: `dependency-fitness-mcp@0.1.1`** (2026-06-08; `npx -y dependency-fitness-mcp`; bypass-2FA granular token in 1Password → unattended republish via `NPM_TOKEN=$(op item get npm --reveal --fields dependency-fitness-mcp-pub) npm publish`)
 - [x] GitHub repo public — https://github.com/TweedBeetle/dependency-fitness-mcp (topics set for auto-index)
 - [ ] [mcp.so](https://mcp.so) — submit form (Christo's login); copy in `SEEDING.md`
 - [ ] [smithery.ai](https://smithery.ai) — connect the public repo (Christo's login)
-- [ ] [glama.ai/mcp](https://glama.ai/mcp) — auto-indexes public GitHub MCP repos; claim via login
+- [⏳] [glama.ai/mcp](https://glama.ai/mcp) — awaiting registry auto-sync (Glama ingests the official registry); "Add Server" needs human signup + CAPTCHA so an agent can't submit. Reminder `25f066` (2026-06-11) to add the score badge to PR #7494 once indexed.
 - [ ] [PulseMCP](https://www.pulsemcp.com) (and chase a weekly-digest feature — a high-signal editorial boost)
-- [ ] [Official MCP registry](https://registry.modelcontextprotocol.io) — **`server.json` validated (2025-12-11 schema); run `mcp-publisher login github` then `mcp-publisher publish`** (Christo's device-auth)
+- [x] [Official MCP registry](https://registry.modelcontextprotocol.io) — **published 2026-06-08: `io.github.TweedBeetle/dependency-fitness-mcp@0.1.1`** (Glama + other aggregators auto-ingest from here)
 - [x] PR to [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — **opened: [#7494](https://github.com/punkpeye/awesome-mcp-servers/pull/7494)**
 
 Servers on 5+ directories see materially more installs. Listing copy should hit
