@@ -7,7 +7,7 @@ import { auditPackages, parseSpec, parsePackageJson, MAX_BATCH, type PackageSpec
 import { renderVerdict, renderSummary } from "./render.js";
 import { VerdictSchema, AuditSummarySchema } from "./types.js";
 
-const VERSION = "0.1.0";
+const VERSION = "0.1.1";
 
 const server = new McpServer(
   { name: "dependency-fitness-mcp", version: VERSION },

@@ -1,6 +1,7 @@
 {
   "name": "dependency-fitness-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.TweedBeetle/dependency-fitness-mcp",
   "description": "MCP server that returns a cross-validated dependency FITNESS verdict for npm packages: deprecated / yanked / superseded status plus an inferred safe migration target — what to move to and how confident we are — cross-checked across the npm registry, deps.dev, OSV, and GitHub. Not just 'is it deprecated'; what to do about it.",
   "type": "module",
   "bin": {
